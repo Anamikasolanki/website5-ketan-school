@@ -37,6 +37,14 @@
     background-color: #FCE0AD;
 }
 
+.bg-lightOrange{
+    background-color: #FEE9CA;
+}
+
+.bg-blue{
+    background-color: #091629;
+}
+
 .text-yellow{
     color: #F5890D;
 }
@@ -93,6 +101,25 @@
     margin-top: 500px;
 }
 
+.mb-5{
+    margin-bottom: 50px;
+}
+
+.mb-10{
+    margin-bottom: 100px;
+}
+
+.p-10{
+    padding: 100px;
+}
+.pt-10{
+    padding-top: 100px;
+}
+
+.pb-10{
+    padding-bottom: 100px;
+}
+
 .education-girl{
     width: 750px;
     right: 0;
@@ -107,6 +134,22 @@ p{
 
 .fs-60{
     font-size: 60px;
+}
+
+.fs-45{
+    font-size: 45px;
+}
+
+.fs-30{
+    font-size: 30px;
+}
+
+.f-20{
+    font-size: 20px;
+}
+
+.t-1{
+    top: 1%;
 }
 
 .t-5{
@@ -125,8 +168,24 @@ p{
     top: 30%;
 }
 
+.t-115{
+    top: 115%;
+}
+
+.t-200{
+    top: 200%;
+}
+
 .b-20{
     bottom: 20%;
+}
+
+.b-2{
+    bottom: 2%;
+}
+
+.b-1{
+    bottom: 1%;
 }
 
 .b-5{
@@ -166,7 +225,16 @@ p{
     left: 10%;
 }
 
+.end-10{
+    right: 10%;
+}
+
+.end-1{
+    right: 1%;
+}
+
 .btn{
+    width: 200px;
     color: #fff;
     padding: 12px 45px;
     font-size: 16px;
@@ -181,9 +249,11 @@ p{
 .btn:hover{
     background-color: #F5890D;
     color: #fff; 
+    transition: all 0.5s linear;
 }
 
 /* Header Section Start */
+
 .header li a:hover{
     color: #F5890D;
 }
@@ -216,7 +286,8 @@ p{
 }
  /* Animation Start */
 .banner .shape-1,
-.banner .shape-2{
+.banner .shape-2,
+.banner .shape-4 {
     animation: shape-1 1.5s linear alternate infinite;  
 }
 @keyframes shape-1 {
@@ -226,6 +297,7 @@ p{
         left: 3%;
     }
 }
+
 
 .banner .shape-3{
     animation: shape-3 1.5s linear alternate infinite;  
@@ -251,9 +323,302 @@ p{
     }
 }
 
+.banner .shape-4{
+    animation: shape-owl 1.5s linear alternate infinite;
+}
+
+@keyframes shape-owl {
+    0%{
+        right: 12%;
+    }
+    100%{
+        
+    }
+}
+
  /* Animation End */
 
 /* Hero Section End */
+
+/* Who We Are Section Start */
+.who-we-are .who-we-are-list ul li span{
+    background-color: #6B91C8;
+    margin: 10px;
+}
+/* Who We Are Section End */
+
+/* Popular Section Start */
+.popular{
+    background-color: #FDF6ED;
+}
+
+.popular h3 a{
+    text-decoration: none;
+    color: #111;
+    font-weight: bold;
+}
+
+.popular ul{
+    display: flex;
+    list-style: none;
+}
+
+.popular ul li{
+    text-decoration: none;
+}
+
+.popular ul li span{
+    color: #EA512E;
+    font-weight: bold;
+}
+
+.popular .price span{
+    background-color:#F5890D;
+    padding:10px;
+}
+
+.popular .card{
+    overflow: hidden;
+}
+
+.popular .card:hover img{
+    transform: scale(1.2) rotate(3deg);
+    transition: all 0.5s linear ;
+}
+
+.popular .card:hover .price span{
+    background-color: #EA512E;
+}
+.popular .card:hover h5{
+    color: #EA512E;
+    transition: all 0.5s linear ;
+}
+
+.popular .card .class-btn{
+    background-color: #EA512E;
+    width: 50px;
+    border-radius: 0px 0px 5px 0px;
+    padding: 5px;
+    color: #fff;
+}
+
+.popular .card:hover .class-btn{
+    background-color: #F5890D;
+    transition: all 0.5s linear;
+}
+
+.popular .card hr{
+    width: 100%;
+    color: #000000;
+    border-style: dashed;
+}
+
+/* Popular Section End */
+
+/* Core Value Section Start */
+
+.core .core-btn{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    line-height: 55px;
+    border: 3px solid #fff;
+    margin-right: 25px;
+    outline-offset: 1px;
+    font-weight: bold;
+}
+
+.core .core-1{
+    background-color: #D3F5FE;
+    outline: 2px solid #D3F5FE;
+}
+
+.core .core-2{
+    background-color: #FCE0AD;
+    outline: 2px solid #FCE0AD;
+}
+
+.core .core-3{
+    background-color: #FBC9D5;
+    outline: 2px solid #FBC9D5;
+}
+
+.core .core-head:hover .core-btn{
+    background-color: #EA512E;
+}
+
+.core .core-head:hover h4{
+    color: #EA512E;
+}
+/* Core Value Section End */
+
+/* Core Teacher Section Start */
+.teacher .social-media{
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   margin-bottom: -50px;
+   transition: all 0.5s ease-in;
+}
+
+.teacher .teacher-image{
+    background-color: #EA512E;
+    border-radius: 0px 100px;
+}
+
+.teacher .teacher-link:hover .teacher-image{
+    background-color: #F5890D;
+    border-radius: 0px 100px 100px 100px;
+    transition: all 0.5s ease-in;
+}
+
+.teacher .teacher-link:hover .social-media{
+    margin-bottom: 10px;
+    transition: all 0.5s ease-out;
+}
+
+.teacher .social-media li a i:hover{
+    background-color: #F5890D;
+}
+/* Core Teacher Section End */
+
+/* Testimonial Section Start */
+
+.testimonial .card span{
+    line-height: 80px;
+    padding-top: 2px;
+    color: #EA512E;
+    background-color: #fff;
+}
+
+.testimonial .testimonial-block .card:hover span{
+    background-color: #EA512E;
+    color: #fff;
+    transition: all 0.3s ease-in;
+}
+
+.testimonial .nav-button button{
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    margin-left: -45px;
+    margin-right: -45px;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+    line-height: 50px;
+    text-align: center;
+    background: #EA512E;
+}
+
+.testimonial .nav-button button:hover{
+    background: #F5890D;
+    transition: all 0.3s ease-in;
+}
+/* Testimonial Section End */
+
+/* Buy Button Animation Section Start */
+div.buy{
+    height: 50px;
+    margin-top: 10px;
+    background-color: #82B440;
+    position: fixed;
+    top: 45%;
+    right: 5%;
+    margin-top: 10px;
+    border-radius: 50px;
+    animation: buy-now 1.5s linear infinite alternate;
+}
+
+.buy a{
+    line-height: 47px;
+}
+
+@keyframes buy-now {
+    0%{
+        width: 120px;
+        transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, 6deg);
+    }
+    50%{
+        transform: scale3d(0.7, 0.7, 0.7) rotate3d(0, 0, 1, -3deg) ;;
+    }
+    100%{
+        transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, 6deg);
+        width: 120px;
+    }
+}
+/* Buy Button Animation Section End */
+
+/* Upcoming Events Section Start */
+.event{
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.event .event-box-item{
+    background-color: #ffffff;
+    box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.event-box-item .event-content h3 a{
+    color: #1b0238;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.event-box-item .event-list{
+    margin-top: 20px;
+}
+
+.event-box-item .event-list li{
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    margin-bottom: 12px;
+}
+
+.event-box-item .event-date{
+    text-align: center;
+}
+
+.event-box-item .event-date h4{
+    font-size: 80px;
+    color: #EA512E;
+    font-weight: bold;
+}
+
+.event-box-item .event-date span{
+    font-size: 20px;
+    color: #ea512e;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+/* Upcoming Events Section End */
+
+/* Footer Section Start */
+.footer{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../img/footer-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.footer ul li a i:hover{
+    background-color: #F5890D;
+}
+
+/* Footer Section End */
 
 /* Responsive Media Query Start */
 
@@ -326,11 +691,37 @@ p{
     }    
 }
 
-@media screen and (max-width: 768px){
-        .img-fluid{
-            max-width: 0%;
-        }
+@media screen and (max-width: 768px) {
+    .img-fluid {
+        height: auto;
+    }
+    .shape-1, .shape-2, .shape-3, .shape-4, .shape-5{
+        display: none;
+    }
+    .banner,
+    .event .event-box-item,
+    .news .card,
+    .footer .row,
+    .banner,
+    .who-we-are p,
+    .who-we-are h2{
+        text-align: center;
+    }
+    .banner .block .btn-1{
+        margin-bottom: 3px;
+    }
+
+    .creator h5{
+        font-size: 14px;
+    }
 }
+
+@media screen and (max-width: 1000px) {
+    .popular .class-shape .shape-1 {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 742px){
     .education-girl{
         width: 350px;
@@ -361,5 +752,7 @@ p{
         font-size: 50px;
     }
 }
+
+
 
 /* Responsive Media Query End */
