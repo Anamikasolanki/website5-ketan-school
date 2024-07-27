@@ -116,6 +116,14 @@
     padding-top: 100px;
 }
 
+.pt-8{
+    padding-top: 80px;
+}
+
+.pt-15{
+    padding-top: 150px;
+}
+
 .pb-10{
     padding-bottom: 100px;
 }
@@ -251,6 +259,8 @@ p{
     color: #fff; 
     transition: all 0.5s linear;
 }
+
+/* Home Page Start */
 
 /* Header Section Start */
 
@@ -620,6 +630,7 @@ div.buy{
 
 /* Footer Section End */
 
+
 /* Responsive Media Query Start */
 
 @media screen and (max-width: 1300px){
@@ -753,6 +764,107 @@ div.buy{
     }
 }
 
-
-
 /* Responsive Media Query End */
+/* Home Page End */
+
+/* Page Section Start */
+
+/* About Section Start */
+.about{
+    width: 100%;
+    height:450px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/page-banner-1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+/* About Section End */
+
+/* Fun-fact-area Start */
+.fun-fact-area{
+    width: 100%;
+    height: 720px;
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/fun-facts-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fun-fact-area .fun{
+    padding-top: 18%;
+}
+.fun-fact-area .single-fun-1{
+    background-color: #599AAC;
+}
+.fun-fact-area .single-fun-2{
+    background-color: #DA9B4B;
+}
+.fun-fact-area .single-fun-3{
+    background-color: #6B4E87;
+}
+.fun-fact-area .single-fun-4{
+    background-color: #C8542C;
+}
+.fun-fact-area .single-fun-1,
+.fun-fact-area .single-fun-2,
+.fun-fact-area .single-fun-3,
+.fun-fact-area .single-fun-4{
+    align-items: center;
+    border-radius: 20px;
+    opacity: 0.9;
+    width: 250px;
+    height: 250px;
+}
+.fun{
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 75px 45px;
+    opacity: 0.9;
+    border-radius: 15px;
+}
+
+/* Fun-fact-area End */
+
+/*  */
+
+/* Quote Area Start */
+.quote-area{
+    padding-top: 80px;
+    width: 100%;
+    height: 720px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/quote-bg.jpg);
+}
+.quote-area .quote-item{
+    background-color: #fff;
+}
+.quote-area .quote-item form input{
+    margin-top: 30px;
+    padding:10px;
+}
+/* Quote Area End */
+
+/* Pricing Area Start */
+.price{
+    background-color: #E7DDF4;
+}
+.pricing-table table tr th{
+    color: #091629;
+    font-weight: bold;
+}
+.pricing-table table tr td{
+    color: grey;
+}
+/* Pricing Area End */
+
+/* Newletter Area Start */
+.new .new-shape .shape-2{
+   right: 0px;
+}
+.new .new-shape .shape-1{
+    left: 0px;
+ }
+/* Newletter Area End */
+
+/* Page Section End */
